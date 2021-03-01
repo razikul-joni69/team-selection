@@ -1,0 +1,8 @@
+ul > li {
+    margin: 5px;
+    list-style-type: decimal;
+    border: 1px solid rgba(37, 39, 39, 0.445);
+    border-radius: 20px;
+    background: #2b2c3313;
+    box-shadow: inset -5px -5px 10px #ffffffad, inset 5px 5px 10px #ffffff;
+}
