@@ -1,22 +1,15 @@
-import logo from './logo.svg';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+// import player from './components/Data/Data.js';
+import Player from './components/Players/Player';
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Player></Player>
       </header>
     </div>
   );

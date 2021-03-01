@@ -1,0 +1,10 @@
+.players-container{
+    display: flex;
+}
+.all-players{
+    width: 80%;
+    border-right: 1px solid gold;
+}
+.all-players ul li{
+    border: 1px silid gold;
+}
