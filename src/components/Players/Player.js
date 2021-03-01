@@ -6,7 +6,6 @@ import './Player.css';
 
 
 const Player = () => {
-  const [players, setPlayers] = useState([player])
   const [newplayer, setNewPlayer] = useState([]);
   const addPlayer = (player) =>{
       const newPlayer = [...newplayer, player]

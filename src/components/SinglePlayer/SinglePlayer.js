@@ -1,8 +1,7 @@
-import React from 'react';
-import './SinglePlayer.css';
-
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import './SinglePlayer.css';
 
 const SinglePlayer = (props) => {
     const {img, name, stats, salary} = props.players;

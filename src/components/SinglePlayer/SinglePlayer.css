@@ -1,27 +1,26 @@
-.player-container{
-    display:flex;
+.player-container {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 300px;
 }
-.player-container{
+.player-container {
     border: 1px solid rgba(22, 22, 21, 0.301);
     margin: 10px;
     padding: 10px;
     border-radius: 19px;
     background: #ffffff;
-    box-shadow:  7px 7px 39px #b0b0b0,
-                -7px -7px 39px #ffffff;
+    box-shadow: 7px 7px 39px #b0b0b0, -7px -7px 39px #ffffff;
 }
-.player-img img{
+.player-img img {
     width: 150px;
     height: 150px;
     border: 1px solid black;
     border-radius: 50%;
 }
-.player-details h2{
+.player-details h2 {
     font-size: 25px;
 }
-.player-details h3{
+.player-details h3 {
     font-size: 18px;
 }
